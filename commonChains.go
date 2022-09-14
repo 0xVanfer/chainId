@@ -1,4 +1,4 @@
-package chainid
+package chainId
 
 // Commonly used chains.
 const ArbitrumChainName string = "arbitrum"

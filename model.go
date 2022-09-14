@@ -1,4 +1,4 @@
-package chainid
+package chainId
 
 type Chain struct {
 	Id     int    // chain id
