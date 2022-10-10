@@ -8,6 +8,7 @@ import (
 )
 
 // Chain ids given by defillama/chainlist.
+//
 // ChainList: https://chainlist.org.
 func GetLatestChainIdsMap() (Id2NameMap map[int]string, Name2IdMap map[string]int, err error) {
 	url := `https://raw.githubusercontent.com/DefiLlama/chainlist/main/constants/chainIds.js`
