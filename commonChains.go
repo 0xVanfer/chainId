@@ -5,7 +5,7 @@ const (
 	ArbitrumChainName  string = "arbitrum"
 	AvalancheChainName string = "avalanche"
 	// Deprecated: Spelling mistake, use BinanceSmartChainName instead.
-	BinanaceSmartChainName string = "binance"
+	BinanaceSmartChainName string = BinanceSmartChainName
 	BinanceSmartChainName  string = "binance"
 	EthereumChainName      string = "ethereum"
 	FantomChainName        string = "fantom"
