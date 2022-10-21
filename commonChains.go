@@ -1,21 +1,20 @@
+// @Description Package chainId is based on chainlist https://chainlist.org.
 package chainId
 
 // Commonly used chains.
 const (
-	ArbitrumChainName  string = "arbitrum"
-	AvalancheChainName string = "avalanche"
-	// Deprecated: Spelling mistake, use BinanceSmartChainName instead.
-	BinanaceSmartChainName string = BinanceSmartChainName
-	BinanceSmartChainName  string = "binance"
-	EthereumChainName      string = "ethereum"
-	FantomChainName        string = "fantom"
-	GoerliChainName        string = "goerli"
-	HecoChainName          string = "heco"
-	OkChainName            string = "okexchain"
-	OptimismChainName      string = "optimism"
-	PolygonChainName       string = "polygon"
-	TerraChainName         string = "terra"
-	XDaiChainName          string = "xdai"
+	ArbitrumChainName     string = "arbitrum"
+	AvalancheChainName    string = "avalanche"
+	BinanceSmartChainName string = "binance"
+	EthereumChainName     string = "ethereum"
+	FantomChainName       string = "fantom"
+	GoerliChainName       string = "goerli"
+	HecoChainName         string = "heco"
+	OkChainName           string = "okexchain"
+	OptimismChainName     string = "optimism"
+	PolygonChainName      string = "polygon"
+	TerraChainName        string = "terra"
+	XDaiChainName         string = "xdai"
 )
 
 // Map chain name to chain id.
