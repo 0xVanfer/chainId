@@ -45,8 +45,8 @@ var ChainId2NameMap = map[int]string{
 	43114: AvalancheChainName,
 }
 
-// Map chain name to chain token symbol.
-var ChainTokenSymbolList = map[string]string{
+// Map chain name to native token symbol.
+var NativeTokenSymbolList = map[string]string{
 	EthereumChainName:     "eth",
 	OptimismChainName:     "eth",
 	BinanceSmartChainName: "bnb",
@@ -58,3 +58,6 @@ var ChainTokenSymbolList = map[string]string{
 	ArbitrumChainName:     "eth",
 	AvalancheChainName:    "avax",
 }
+
+// Deprecated: Use NativeTokenSymbolList instead.
+var ChainTokenSymbolList = NativeTokenSymbolList
