@@ -5,7 +5,7 @@ package chainId
 const (
 	ArbitrumChainName  string = "arbitrum"
 	AvalancheChainName string = "avalanche"
-	BNBSmartChainName  string = "bnb"
+	BNBSmartChainName  string = "BSC"
 	EthereumChainName  string = "ethereum"
 	FantomChainName    string = "fantom"
 	GoerliChainName    string = "goerli"
@@ -17,9 +17,6 @@ const (
 	XDaiChainName      string = "xdai"
 	FilecoinChainName  string = "filecoin"
 )
-
-// Deprecated: Use BNBSmartChainName instead.
-const BinanceSmartChainName string = BNBSmartChainName
 
 // Map chain name to chain id.
 var ChainName2IdMap = map[string]int{
